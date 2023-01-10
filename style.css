@@ -629,6 +629,9 @@ nav .fa-solid{
         flex-basis: 5%;
         margin-right: 10px;
     }
+    #header{
+        padding: 60px 0px;
+    }
 }
 #msg{
     color: #61b752;
