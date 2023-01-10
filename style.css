@@ -176,13 +176,13 @@ width: 90%;
     margin:20px 0 40px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
     /* align-items: center; */
 }
 .tab-title .tab-links{
-    flex-basis: 5%;
-    /* margin-right: 30px; */
+    /* flex-basis: 5%; */
+    margin-right: 50px;
     margin-top: 8px;
     font-size: 18px;
     font-weight: 500;
@@ -619,6 +619,15 @@ nav .fa-solid{
     }
     .goa{
         font-size: 10px;
+    }
+    .tab-title{
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tab-title .tab-links{
+        flex-basis: 5%;
+        margin-right: 10px;
     }
 }
 #msg{
